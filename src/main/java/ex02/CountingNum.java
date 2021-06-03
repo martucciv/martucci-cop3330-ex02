@@ -18,17 +18,14 @@ public class CountingNum {
 
     public String readInput(){
         System.out.print("What is the input string? ");
-        String string = input.nextLine();
-        return string;
+       return input.nextLine();
     }
 
     public int getLength(String string){
-        int length = string.length();
-        return length;
+        return string.length();
     }
 
     public void printOutput(String string, int length){
         System.out.printf("%s has %d characters.", string, length);
-
     }
 }
